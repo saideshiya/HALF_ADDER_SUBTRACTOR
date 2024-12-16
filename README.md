@@ -49,7 +49,7 @@ Figure -02 HALF Subtractor
 
 
 **Program:**
-
+```
  module exp3(a,b,cy, sm, df, bo);
  input a,b;
  output sm,cy, df,bo;
@@ -58,6 +58,7 @@ Figure -02 HALF Subtractor
  xor(df,a,b);
  and(bo, a,b);
  endmodule
+```
 
 Developed by: Sai Deshiya.K  RegisterNumber:24005381
 
